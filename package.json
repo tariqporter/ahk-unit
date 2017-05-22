@@ -1,0 +1,17 @@
+{
+  "name": "ahk-unit",
+  "version": "1.0.0",
+  "description": "Unit testing library for Autohotkey",
+  "bin": {
+    "ahk-unit": "./bin/ahk-unit"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [ "npm", "ahk" ],
+  "author": "Tariq Porter @tariqporter",
+  "license": "MIT",
+  "devDependencies": {
+    "chokidar": "^1.7.0"
+  }
+}
