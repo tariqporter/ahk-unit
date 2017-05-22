@@ -22,3 +22,25 @@ exports.config = () => {
 	};
 }
 ```
+
+Inside your project you can then have continous tests running
+
+`package.json`
+```
+"scripts": {
+  "test": "ahk-unit ./tests/tests.ahk"
+}
+```
+
+This will load `tests.ahk` and all files included inside it.
+Your test file should include `ahk-unit.ahk`
+
+```
+#Include %A_ScriptDir%\..\node_modules\ahk-unit\lib\ahk-unit.ahk
+```
+
+Any class to be tested should extend the `AhkUnit` class
+
+```
+class MyCLassTest extends AhkUnit
+```
