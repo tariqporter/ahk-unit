@@ -44,7 +44,7 @@ class AhkUnit
 		}
 		
 		it(it1) {
-			return new AhkUnit.It(this.options, this.describe, , this.errors, it1)
+			return new AhkUnit.It(this.options, this.describe, this.errors, it1)
 		}
 	}
 	
