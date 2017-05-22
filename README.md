@@ -42,5 +42,5 @@ Your test file should include `ahk-unit.ahk`
 Any class to be tested should extend the `AhkUnit` class
 
 ```
-class MyCLassTest extends AhkUnit
+class MyClassTest extends AhkUnit
 ```

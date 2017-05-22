@@ -1,6 +1,6 @@
 {
   "name": "ahk-unit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Unit testing library for Autohotkey",
   "bin": {
     "ahk-unit": "./bin/ahk-unit"
