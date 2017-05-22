@@ -12,7 +12,13 @@ Install `ahk-unit` as a dependency of your project
 npm install --save-dev ahk-unit
 ```
 
-You will need to create a `ahk-unit.conf.js` in your root, to provide the path of `Autohotkey.exe`
+To run the examples, simply at the root of this project run
+
+```bash
+ node .\bin\ahk-unit .\examples\tests.ahk
+```
+
+For your own project, you will need to create a `ahk-unit.conf.js` in your root, to provide the path of `Autohotkey.exe`
 
 `ahk-unit.conf.js`
 ```js
