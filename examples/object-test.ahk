@@ -48,7 +48,7 @@ class MyObjectTest extends AhkUnit {
 		x := "Hello World!"
 		d.it("x should contain 'Hallo'").expect(x).toContain("Hallo")
 		
-		;toMatrch(value) does x contain regular expression value
+		;toMatch(value) does x contain regular expression value
 		x := "Hello World"
 		d.it("x should contain '^Hallo\s+World!$'").expect(x).toMatch("^Hallo\s+World!$")
 	}
